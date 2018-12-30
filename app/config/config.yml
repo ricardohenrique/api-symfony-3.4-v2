@@ -67,5 +67,14 @@ swiftmailer:
     spool: { type: memory }
 
 sensio_framework_extra:
-   router:
+    router:
         annotations: false
+    view:
+        annotations: true
+
+fos_rest:
+    routing_loader:
+        default_format: json
+    view:
+        view_response_listener: 'force'
+
