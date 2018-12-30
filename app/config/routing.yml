@@ -1,3 +1,7 @@
 app:
     resource: '@AppBundle/Controller/'
     type: annotation
+
+movies:
+    type: rest
+    resource: AppBundle\Controller\MoviesController
